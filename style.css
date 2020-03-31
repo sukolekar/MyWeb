@@ -1,0 +1,59 @@
+/*NOTE:
+# -> for ID
+. -> for class
+*/
+body {
+	background-color: #EEEEEE;
+	font-family:Helvetica, Arial, sans-serif;
+}
+#container{
+background-color:white;
+/*width:800px;*/
+padding-top:0px; 
+margin-left: auto;
+margin-right: auto;
+}
+
+#header{
+	background-color:#000000;
+	color:white; 		/*apply on text text*/ 
+	text-align:center; 
+	padding:5px;
+	font-size:12px;
+}
+
+#content{
+	/*padding:10px 10px 10px 10px; // top,right,bottom,left 
+	Or*/
+	padding:10px; 		/*all 4 side 10px*/ 
+}
+a{
+	text-decoration:none;
+	color:red;
+}
+h1,h2,h3{		/*for more u can do h1,h2{.....}*/
+	margin: 0;
+}
+
+#nav{
+	width:180px;
+	float:left;
+}
+#nav .selected{		/*#nav space class_name gives specific loc.*/
+	font-weight: bold;
+}
+#nav ul{
+	list-style-type:none;
+	padding: 0;
+}
+#main{
+	width: 600px;
+	float:right;
+}
+#footer{
+	clear:both;
+	text-align: right;
+	padding: 10px;
+	background-color:#000000;
+	color:white;
+}
